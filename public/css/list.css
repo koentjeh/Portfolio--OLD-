@@ -1,0 +1,142 @@
+.list {
+	width: 100%;
+}
+
+
+
+
+/*
+	LIST ITEM
+	NORMAL
+*/
+.list .item {
+	position: relative;
+	width: 100%;
+	padding: 10px;
+	font-size: 14px;
+	font-weight: 400;
+	border-top: 1px solid #eee;
+}
+.list .item.item-avatar {
+	padding-left: 80px;
+}
+.list .item.item-avatar img {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	height: 60px;
+	width: 60px;
+}
+.list .item.item-avatar h3 {
+	margin: 8px 0 2px 0;
+	line-height: 1.4;
+	font-size: 18px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+.list .item.item-avatar p {
+	margin: 2px 0 6px 0;
+	font-size: 15px;
+	color: #666;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+}
+
+/*
+	LIST ITEM WITH IMAGE LEFT
+	SMALL
+*/
+.list.list-sm .item {
+	position: relative;
+	width: 100%;
+	padding: 8px 7px;
+	font-size: 16px;
+	border-bottom: 1px solid #eee;
+}
+.list.list-sm .item.item-avatar {
+	padding-left: 56px;
+}
+.list.list-sm .item.item-avatar img {
+	position: absolute;
+	top: 8px;
+	left: 8px;
+	height: 40px;
+	width: 40px;
+}
+.list.list-sm .item.item-avatar h3 {
+	margin: 0 0 2px 0;
+	line-height: 1.2;
+	font-size: 16px;
+}
+.list.list-sm .item.item-avatar p {
+	font-size: 14px;
+}
+/*
+	LIST ITEM WITH IMAGE LEFT
+	LARGE
+*/
+.list.list-lg .item {
+	position: relative;
+	width: 100%;
+	padding: 8px 7px;
+	font-size: 16px;
+	border-bottom: 1px solid #eee;
+}
+.list.list-lg .item.item-avatar {
+	padding-left: 100px;
+}
+.list.list-lg .item.item-avatar img {
+	height: 80px;
+	width: 80px;
+}
+.list.list-lg .item.item-avatar h3 {
+	margin: 13px 0 0 0;
+	line-height: 1.4;
+	font-size: 24px;
+}
+.list.list-lg .item.item-avatar p {
+	margin: 4px 0 12px 0;
+	line-height: 1.2;
+	font-size: 18px;
+	font-weight: 300;
+}
+
+
+
+.list .item.item-thumbnail {
+	padding-left: 220px;
+}
+.list .item.item-thumbnail .thumbnail {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100px;
+	width: 180px;
+	margin: 20px;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.list .item.item-thumbnail .thumbnail img {
+	max-height: 100%;
+	max-width: 100%;
+}
+.list .item.item-thumbnail h2 {
+	margin: 2px 0 6px 0;
+	font-size: 28px;
+	font-weight: 400;
+}
+.list .item.item-thumbnail a p.website {
+	margin: 10px 10px 10px 0;
+	font-size: 14px;
+	font-weight: 300;
+	text-align: right;
+	text-transform: uppercase;
+}
+.list .item.item-thumbnail p {
+	font-size: 16px;
+	font-weight: normal;
+}

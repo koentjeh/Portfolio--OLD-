@@ -1,0 +1,251 @@
+#app-sidebar {
+	z-index: 1;
+	position: fixed;
+	top: 64px;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	/*width: 64px;*/
+	padding: 14px 14px 64px 14px;
+	background-color: rgb(236, 236, 236);
+	box-shadow: 0 2px 7px rgba(0, 0, 0, .7);
+	transform: translate3d(0px, 0, 0);
+	transition: transform 0.2s ease-in-out;
+	will-change: transform;
+}
+#app-sidebar .sidebar-header {
+	float: left;
+	display: flex;
+	height: 64px;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#app-sidebar .sidebar-header img {
+	height: 100%;
+	width: 100%;
+}
+#app-sidebar .sidebar-menu {
+	margin-bottom: 36px;
+}
+#app-sidebar .sidebar-menu button {
+	margin-bottom: 14px;
+	color: rgb(255,64,129);
+}
+#app-sidebar .sidebar-menu.menu-1 button {
+
+	box-shadow: inset 0px 0px 0px 1px rgb(255,64,129);
+	background-color: rgb(255, 255, 255);
+}
+#app-sidebar .sidebar-menu.menu-2 button {
+
+}
+#app-sidebar .sidebar-menu.menu-1 button:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(255,64,129);
+}
+#app-sidebar .sidebar-menu.menu-2 button:hover {
+	color: rgb(255, 255, 255);
+	background-color: rgb(255,64,129);
+}
+
+
+#app-sidebar {
+	
+}
+#app-sidebar {
+	
+}
+#app-sidebar {
+	
+}
+#app-sidebar {
+	
+}
+#app-sidebar {
+	
+}
+#app-sidebar {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#sidebar {
+	z-index: 12;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 100%;
+	width: 300px;
+	background-color: #fff;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, .7);
+	transform: translate3d(-300px, 0, 0);
+	transition: transform 0.2s ease-in-out;
+	will-change: transform;
+}
+#sidebar .sidebar-header {
+	float: left;
+	display: flex;
+	position: relative;
+	width: 100%;
+	height: 100px;
+	padding-left: 90px;
+	flex-direction: column;
+	justify-content: center;
+
+	background-image: url(../img/background/cloud.jpg);
+	background-position: bottom center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+#sidebar .sidebar-header img {
+	position: absolute;
+	top: 50%;
+	left: 5px;
+	height: 80px;
+	width: 80px;
+	transform: translate3d(0, -50%, 0);
+}
+#sidebar .sidebar-header h2 {
+	font-size: 22px;
+	line-height: 1;
+}
+#sidebar .sidebar-header small {
+	font-size: 14px;
+}
+
+
+
+#sidebar .sidebar-menu {
+	float: left;
+	width: 100%;
+}
+#sidebar .sidebar-menu a {
+	text-decoration: none;
+	color: inherit;
+}
+#sidebar .sidebar-menu li {
+	display: block;
+	position: relative;
+	padding: 16px 15px 16px 46px;
+	font-size: 14px;
+	text-transform: uppercase;
+	background-color: rgb(255, 255, 255);
+	/*border-bottom: 1px solid #ddd;*/
+}
+#sidebar .sidebar-menu li i {
+	display: flex;
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	height: 46px;
+	width: 46px;
+	text-align: center;
+	color: inherit;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+#sidebar .sidebar-menu li ul li:before {
+	z-index: 1;
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: -23px;
+	bottom: -24px;
+	width: 1px;
+	content: '';
+	border-left: 1px dashed rgba(12, 12, 12, 0.3);
+}
+#sidebar .sidebar-menu li ul li:last-child:before {
+	display: none;
+}
+#sidebar .sidebar-menu li ul li a:before {
+	display: block;
+	position: absolute;
+	top: 25px;
+	left: -20px;
+	width: 30px;
+	content: '';
+	border-bottom: 1px dashed rgba(12, 12, 12, 0.3);
+}
+#sidebar .sidebar-menu li ul li ul li {
+	padding: 16px 15px 0px 15px;
+}
+
+
+#sidebar .sidebar-footer {
+	z-index: 10;
+	display: flex;
+	position: absolute;
+	bottom: 0;
+	height: 36px;
+	width: 100%;
+	font-size: 14px;
+	font-weight: 500;
+	letter-spacing: -1px;
+	background-color: rgb(255, 255, 255);
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	box-shadow: 0 2px 7px rgba(0, 0, 0, .3);
+}
+
+#overlay {
+	z-index: 11;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	height: 100%;
+	width: 100%;
+	background-color: rgba(0, 0, 0, 0);
+	transition: background 0.2s ease-in-out;
+	pointer-events: none;
+}
+
+
+@media screen and (max-width: 600px) {
+	#app-sidebar {
+		top: 54px;
+	}
+}

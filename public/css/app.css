@@ -1,0 +1,7 @@
+section.page {
+	float: left;
+	height: 100%;
+	width: 100%;
+	padding-left: 64px;
+	overflow-y: scroll;
+}

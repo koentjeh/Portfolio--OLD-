@@ -1,0 +1,21 @@
+table {
+	width: 100%;
+	max-width: 100%;
+	margin-bottom: 10px;
+	background-color: transparent;
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+}
+
+table > thead > tr > th,
+table > tbody > tr > th,
+table > tfoot > tr > th,
+table > thead > tr > td,
+table > tbody > tr > td,
+table > tfoot > tr > td {
+	padding: 8px;
+	line-height: 1.42857143;
+	vertical-align: top;
+	border-bottom: 1px solid #eee;
+}
